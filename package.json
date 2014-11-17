@@ -1,0 +1,25 @@
+{
+  "name": "twitterwall-cli",
+  "version": "1.0.0",
+  "description": "cli client for twitterwall",
+  "main": "./lib/twitterwall.js",
+  "bin": "./bin/twitterwall",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conc-at/twitterwall-cli.git"
+  },
+  "keywords": [
+    "twitterwall",
+    "concat",
+    "cli"
+  ],
+  "author": "Christoph Witzko <npm@christophwitzko.com> (http://christophwitzko.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conc-at/twitterwall-cli/issues"
+  },
+  "homepage": "https://github.com/conc-at/twitterwall-cli"
+}
