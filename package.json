@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/conc-at/twitterwall-cli/issues"
   },
-  "homepage": "https://github.com/conc-at/twitterwall-cli"
+  "homepage": "https://github.com/conc-at/twitterwall-cli",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "read": "^1.0.5",
+    "request": "^2.48.0",
+    "url-join": "0.0.1"
+  }
 }
