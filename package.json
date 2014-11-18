@@ -1,6 +1,6 @@
 {
   "name": "twitterwall-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli tool for twitterwall",
   "main": "./lib/twitterwall.js",
   "bin": {

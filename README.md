@@ -15,7 +15,7 @@ Commands:
   unblock <keyword>       unblock user or keyword
   listblock               view current blocking list
   tweet <user> <message>  send a faketweet
-  flash <message>         send a flash message
+  flash [message]         send a flash message
   reconfigure             reconfigure .twitterwallrc
 
 Options:
