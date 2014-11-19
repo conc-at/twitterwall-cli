@@ -16,7 +16,7 @@ module.exports = function(argv) {
   var isSignin = command === 'signin'
 
   if (cmd && !command) return console.log('command', '"' + cmd + '"', 'not found')
-  if (!command || isSignin ? false : (!argv._.length) || argv.help || argv.h) return lib.help(command)
+  if (!command || (isSignin ? false : !argv._.length) || argv.help || argv.h) return lib.help(command)
     
   lib.config(command, function(config) {
     if (isSignin) return lib.commands[command](argv, config)
