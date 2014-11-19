@@ -12,10 +12,11 @@ module.exports = function(argv) {
 
   var command = abbrevs[argv._[0]]
 
-  if (!command) console.log('command not found')
+  if (argv._[0] && !command) return console.log('command not found')
   if (!command || !argv._.length || argv.help || argv.h) return lib.help(command)
 
-  argv._ = argv._.slice(1)
-
-  return lib.commands[command](argv)
+  lib.config(command, function(config) {
+    argv._ = argv._.slice(1)
+    lib.commands[command](argv, config)
+  })
 }
