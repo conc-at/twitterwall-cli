@@ -13,12 +13,13 @@ module.exports = function(argv) {
 
   var cmd = argv._.shift()
   var command = abbrevs[cmd]
+  var isSignin = command === 'signin'
 
-  if (cmd && !command) return console.log('command', '"' + cmd + '"', 'not found')x
-  if (!command || !argv._.length || argv.help || argv.h) return lib.help(command)
+  if (cmd && !command) return console.log('command', '"' + cmd + '"', 'not found')
+  if (!command || isSignin ? false : (!argv._.length) || argv.help || argv.h) return lib.help(command)
     
   lib.config(command, function(config) {
-    if (command === 'signin') return lib.commands[command](argv, config)
+    if (isSignin) return lib.commands[command](argv, config)
     lib.commands[command](argv, new Twitterwall(config))
   })
 }
