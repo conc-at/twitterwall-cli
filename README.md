@@ -1,4 +1,4 @@
-# CLI tool for [twitterwall](https://github.com/conc-at/twitterwall)
+# CLI for [twitterwall](https://github.com/conc-at/twitterwall)
 
 ## Install Twitterwall CLI
 
@@ -7,24 +7,20 @@
 ## Usage
 
 ```
-Usage: twitterwall [options] [command]
+usage: twitterwall <command> [options]
 
-  Commands:
+Commands:
 
-    block <keyword>                    block user or keyword
-    unblock <keyword>                  unblock user or keyword
-    listblock                          view current blocking list
-    clearblock                         clear the blocking list
-    tweet <user> <message>             send a faketweet
-    flashtimeout <message> <duration>  send a flash message with a timeout
-    flash <message>                    send a flash message
-    clearflash                         clear current flash message
-    reconfigure                        reconfigure .twitterwallrc
+    block   block, unblock or view blocking list
+    flash   send or clear flash messages
+    tweet   send a fake tweet
+    signin  reconigure twitterwall server and login credentials
 
-  Options:
+Options:
 
     -h, --help     output usage information
-    -V, --version  output the version number```
+    -v, --version  output the version number
+```
 
 ## Licence
 
