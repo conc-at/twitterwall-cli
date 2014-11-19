@@ -2,7 +2,7 @@
   "name": "twitterwall-cli",
   "version": "1.1.0",
   "description": "cli tool for twitterwall",
-  "main": "./lib/twitterwall.js",
+  "main": "./index.js",
   "bin": {
     "twitterwall": "./bin/twitterwall"
   },
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/conc-at/twitterwall-cli",
   "dependencies": {
-    "commander": "^2.5.0",
+    "abbrev": "^1.0.5",
+    "minimist": "^1.1.0",
     "read": "^1.0.5",
     "twitterwall.js": "^1.0.0"
   }
