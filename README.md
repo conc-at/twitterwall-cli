@@ -11,10 +11,11 @@ usage: twitterwall <command> [options]
 
 Commands:
 
-    block   block, unblock or view blocking list
-    flash   send or clear flash messages
-    tweet   send a fake tweet
-    signin  reconigure twitterwall server and login credentials
+    block      block, unblock, clear or view blocking list
+    flash      send or clear flash messages
+    tweet      send a fake tweet
+    highlight  highlight a tweet
+    signin     reconigure twitterwall server and login credentials
 
 Options:
 
