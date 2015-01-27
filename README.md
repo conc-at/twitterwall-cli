@@ -14,7 +14,7 @@ Commands:
     block      block, unblock, clear or view blocking list
     flash      send or clear flash messages
     tweet      send a fake tweet
-    highlight  highlight a tweet
+    highlight  highlight a tweet (not supported yet)
     signin     reconigure twitterwall server and login credentials
 
 Options:
