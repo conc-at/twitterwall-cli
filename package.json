@@ -8,7 +8,7 @@
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,8 @@
     "minimist": "^1.1.0",
     "read": "^1.0.5",
     "twitterwall.js": "^1.0.4"
+  },
+  "devDependencies": {
+    "standard": "*"
   }
 }
