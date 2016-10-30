@@ -28,7 +28,7 @@
   "dependencies": {
     "abbrev": "^1.0.5",
     "async": "^2.1.2",
-    "minimist": "^1.1.0",
+    "minimist": "^1.2.0",
     "read": "^1.0.5",
     "twitterwall.js": "^1.0.4"
   },
