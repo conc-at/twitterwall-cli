@@ -27,7 +27,7 @@
   "homepage": "https://github.com/conc-at/twitterwall-cli",
   "dependencies": {
     "abbrev": "^1.0.5",
-    "async": "^2.1.2",
+    "async": "^2.4.1",
     "minimist": "^1.1.0",
     "read": "^1.0.5",
     "twitterwall.js": "^1.0.4"
